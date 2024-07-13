@@ -1,6 +1,6 @@
 # Configurations in a console app
 
-## Example for reading configurations from 'appsettings.json' in a console app.<br>
+## Example for reading configurations from 'appsettings.json' in a console app.<br>&nbsp;<br>
 
 1.) Using the options pattern (strongly typed configuration):
 
