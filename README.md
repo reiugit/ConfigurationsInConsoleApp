@@ -1,6 +1,6 @@
 # Example for reading configurations<br>from 'appsettings.json' in a console app
 
-1.) Using the options pattern (strongly typed configuration):
+1.) Using the options pattern (strongly typed configuration):<br>
     * via options object
 
 2.) Reading the configuration-section directly:
