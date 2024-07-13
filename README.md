@@ -1,4 +1,4 @@
-# Example for reading configurations from<br>'appsettings.json' in a console app
+# Example for reading configurations<br>from appsettings.json in a console app
 
 1.) Using the options pattern (strongly typed configuration):
 
