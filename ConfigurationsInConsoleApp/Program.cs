@@ -10,7 +10,7 @@ var configuration = new ConfigurationBuilder()
 var parentSettings = configuration.Get<ParentSettings>();
 
 Console.WriteLine("\n1.) Using the options pattern (strongly typed configuration):\n");
-Console.WriteLine($"    * via options object:  {parentSettings?.ChildrenSettings.ChildrenList[0]}");
+Console.WriteLine($"    * via options object:  {parentSettings?.ChildrenSettings?.ChildrenList?[0]}");
 
 // 2.) Reading the configuration-section directly:
 Console.WriteLine("\n\n2.) Reading the configuration-section directly:\n");
